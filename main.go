@@ -8,7 +8,7 @@ func main() { // Every go program has a main function. There can be only one mai
 	whattosay = "Goodbye world. Ending the program"
 	//fmt.Println(whattosay)
 	var i int //declaring a integer variable
-	i = 34 }}
+	i = 34
 	fmt.Println(i)
 	check := say()                               //you are using a variable to call the function say. When you use a variable to call a function you don't declare it.
 	fmt.Println("The function returned ", check) //When you want to print something with the variable
