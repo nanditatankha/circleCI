@@ -19,10 +19,9 @@ jobs:
       - run:
           name: Run tests
           command: gofmt main.go
-
-version: 2.1
+          
 workflows:
-  check:                    # workflow label
+  check:                    
     jobs:
       - build:  
           filters:
