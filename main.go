@@ -6,7 +6,7 @@ func main() { // Every go program has a main function. There can be only one mai
 	fmt.Println("Hello World !") //fmt stands for format. It is a standard Library
 	var whattosay string         //Declaring a string variable
 	whattosay = "Goodbye world. Ending the program"
-	fmt.Println(whattosaygo)
+	fmt.Println(whattosay)
 	var i int //declaring a integer variable
 	i = 34
 	fmt.Println(i)
@@ -22,6 +22,6 @@ func say() string { //This function has something after the paranthesis. The ret
 	return "Nandita"
 }
 
-func say2() (string, t) { // When you want to return multiple things from a func, you use (). enter the variable type of what you want to return in ()
+func say2() (string, int) { // When you want to return multiple things from a func, you use (). enter the variable type of what you want to return in ()
 	return "Tankha", 2
 }
