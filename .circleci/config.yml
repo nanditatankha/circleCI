@@ -17,9 +17,6 @@ jobs:
           paths:
             - "/go/pkg/mod"
       - run:
-          name: Lint check
-          command:
-            gofmt main.go
-
-
+          name: Run tests
+          command: gofmt main.go
 
